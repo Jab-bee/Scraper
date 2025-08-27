@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+
+# Base de datos SQLite
+*.sqlite3
+db.sqlite3
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuraciones locales (pueden contener datos sensibles)
+local_settings.py
+.env
+.env.production
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Archivos de Docker (opcional, si no quieres subir datos persistentes)
+data/
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación de Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/

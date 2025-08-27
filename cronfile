@@ -1,0 +1,3 @@
+##Comentario: >> /var/log/cron.log Agrega la salida estándar (stdout) del comando al archivo /var/log/cron.log, sin sobrescribirlo
+*/5 * * * * root cd /app && /usr/local/bin/python manage.py scrape >> /var/log/cron.log 2>&1
+*/5 * * * * root cd /app && /usr/local/bin/python manage.py runcrons >> /var/log/cron.log 2>&1
